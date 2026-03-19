@@ -1,0 +1,30 @@
+{
+  "name": "smart-task-manager",
+  "version": "1.0.0",
+  "description": "智能任务管理器 - 让 OpenClaw 真正记住你的每个要求",
+  "author": "程哥",
+  "license": "MIT",
+  "triggers": [
+    "执行任务",
+    "帮我",
+    "开始",
+    "做一下",
+    "记住",
+    "写一个"
+  ],
+  "auto_trigger": true,
+  "capabilities": [
+    "智能任务路由",
+    "快速通道执行",
+    "自动记忆管理",
+    "违规检查纠正"
+  ],
+  "requires": {
+    "openclaw": ">=2026.3.0"
+  },
+  "openclaw": {
+    "min_version": "1.0.0",
+    "auto_setup": true,
+    "create_config_files": true
+  }
+}

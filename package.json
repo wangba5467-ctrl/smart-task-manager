@@ -1,0 +1,67 @@
+{
+  "name": "@openclaw/smart-task-manager",
+  "version": "1.0.0",
+  "description": "智能任务管理器 - 自动化任务执行和记忆管理，让 OpenClaw 真正记住你的每个要求",
+  "author": "Claude + 程哥",
+  "license": "MIT",
+  "keywords": [
+    "openclaw",
+    "skill",
+    "task-manager",
+    "memory",
+    "workflow",
+    "automation",
+    "智能",
+    "任务管理",
+    "记忆"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/smart-task-manager.git"
+  },
+  "openclaw": {
+    "name": "smart-task-manager",
+    "displayName": "智能任务管理器",
+    "category": "automation",
+    "version": "1.0.0",
+    "description": "自动化任务执行和记忆管理",
+    "icon": "🧠",
+    "triggers": [
+      "执行任务",
+      "帮我",
+      "开始",
+      "做一下",
+      "处理"
+    ],
+    "capabilities": [
+      "智能任务路由",
+      "快速通道执行",
+      "流程文档读取",
+      "自动记忆管理",
+      "违规检查纠正"
+    ],
+    "dependencies": {
+      "openclaw": ">=2026.3.0",
+      "qmd": "*"
+    },
+    "config": {
+      "auto_setup": true,
+      "create_config_files": true,
+      "workspace_path": "~/.openclaw/workspace"
+    },
+    "files": [
+      "skill.md",
+      "skill.json",
+      "README.md",
+      "EXAMPLES.md",
+      "安装指南.md",
+      "bin/install.sh",
+      "bin/setup.js"
+    ]
+  },
+  "scripts": {
+    "install": "node bin/setup.js",
+    "setup": "node bin/setup.js",
+    "test": "echo \"Run: openclaw skill test smart-task-manager\""
+  }
+}
