@@ -1,7 +1,7 @@
 {
   "name": "@openclaw/smart-task-manager",
-  "version": "1.0.0",
-  "description": "智能任务管理器 - 自动化任务执行和记忆管理，让 OpenClaw 真正记住你的每个要求",
+  "version": "2.0.0",
+  "description": "任务门卫 - 快速判断任务类型并自动分发",
   "author": "Claude + 程哥",
   "license": "MIT",
   "keywords": [
